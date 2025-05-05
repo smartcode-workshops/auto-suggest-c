@@ -17,8 +17,22 @@ auto-suggest-c/
 ├── trie.h         # Trie数据结构头文件
 ├── trie.c         # Trie数据结构实现
 ├── main.c         # 测试程序
+├── test_trie.c    # 单元测试文件
 ├── Makefile       # 构建文件
 └── .gitignore     # Git忽略规则
+```
+
+## 单元测试
+
+项目包含完整的单元测试，覆盖以下功能：
+- 空字符串插入测试
+- 单个单词插入测试
+- 重复单词插入测试
+- 多个单词插入测试
+
+运行测试：
+```bash
+make test
 ```
 
 ## 有关字典树(Trie)数据结构
