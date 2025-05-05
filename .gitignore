@@ -1,0 +1,16 @@
+# 编译生成的文件
+*.o
+*.a
+*.so
+
+# 可执行文件
+auto_suggest
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+
+# IDE相关文件
+.vscode/
+.idea/
